@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_custom_theme"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sp_widget_theme_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/widget_custom_layout"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sp_widget_layout_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/widget_custom_filter"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sp_widget_filter_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_widget_preview_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#E1F5FE"
+        android:padding="10dp"
+        android:text="@string/widget_custom_preview"
+        android:textColor="#01579B"
+        android:textSize="13sp" />
+
+</LinearLayout>
